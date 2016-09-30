@@ -1,0 +1,5 @@
+the script fastqToFasta_Aitor_1.pl converts fastq to fasta (expanded) 
+
+the script fa2uniq_fa.pl collapses an expanded fasta file
+
+the script fastqtoFASTA_old.pl converts fastq to fasta while discarding any reads that contain Ns

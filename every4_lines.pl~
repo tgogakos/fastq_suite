@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+open(IN,"<", $ARGV[0]) || die "$!\n";
+
+while(my $l=<IN>){
+    if ($l % 4){
+	print "$l\n";
+    }
+}
